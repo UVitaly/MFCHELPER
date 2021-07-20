@@ -1,0 +1,93 @@
+body{
+  background-image: url(/Images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+html
+{
+  height: 100%;
+}
+
+
+.wrapper-edit
+{
+  height: 100vh;
+  font-family: 'Comfortaa', cursive;
+}
+
+.form_wrapper
+{
+padding: 10px;
+}
+
+.btn
+{
+margin: 10px;
+}
+
+.wrapper
+{
+background: whitesmoke;
+border-radius: 5px;
+box-sizing: content-box;
+height: 75%;
+margin-top: 100px;
+width: 40%;
+min-width: 400px;
+font-family: Comfortaa, cursive;
+box-shadow: 0 0 5px 5px grey;
+}
+
+.wrapper h1
+{
+padding-top:50px;
+}
+
+.login{
+  border-radius: 15px;
+  box-shadow: 0 0 5px 5px grey;
+  color:black;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  font-family: 'Roboto', sans-serif;
+  background: whitesmoke;
+}
+.login form div
+{
+height: 50px;
+}
+.login h1
+{
+text-align: center;
+padding-top: 20px;
+padding-bottom: 80px;
+}
+
+.login input
+{
+float: right;
+margin-right: 20px;
+}
+
+.login label
+{
+margin-left: 40px;
+}
+
+.login button
+{
+float: right;
+margin-top: 60px;
+margin-right: 50px;
+}
+
+.log,.reg
+{
+  margin-top: 100px;
+	width: 80%;
+}
+.reg select
+{
+  margin-bottom: 30px;
+}

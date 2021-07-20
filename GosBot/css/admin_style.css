@@ -1,0 +1,175 @@
+
+.main { 
+
+    width: 100%; 
+    padding: 0px; 
+    margin: 0 auto;  
+    
+ }
+
+body{
+
+    background: url(/Images/bcgAlt.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+input
+{
+    opacity: 0.8;
+}
+
+.users_db button
+{
+    margin-top: 10px;
+}
+.log-out { 
+
+   display: block;
+   float: right;
+   margin: 20px;
+
+ }
+ .log-out a{
+
+    color:white; 
+
+ }
+ .users{
+
+    display: block;
+
+ }
+
+ .users_reg, .users_db{
+
+    width: 50%;
+    padding: 30px !important;
+
+ }
+
+.pwrd_generate{
+
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.main>input 
+{
+     display: none; 
+}
+.main>div 
+{
+    display: none;
+    padding: 12px;
+}
+.main>label:hover
+{
+    background-color: green;
+    color: whitesmoke;
+}
+
+.main>button {
+
+    display: none;
+    padding: 12px;
+    float: left;
+}
+.main>label {
+
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background: #009999;
+    cursor: pointer;
+}
+.main>input:checked + label {
+
+    color: whitesmoke;
+    background: #006363;
+}
+
+.crt_test__add{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+
+}
+.crt_test label
+{
+    margin: 10px !important;
+}
+
+.other_forms__timing,.other_forms__true_answers{
+
+    padding: 10px;
+
+}
+
+#tab_1:checked ~ #txt_1 { display: flex; }
+#tab_2:checked ~ #txt_2 { display: flex; }
+#tab_3:checked ~ #txt_3,
+#tab_4:checked ~ #txt_4 { display: flex; }
+
+#upload-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 400px;
+	height: 400px;
+	outline: 2px dashed #5d5d5d;
+	outline-offset: -12px;
+	background-color: #e0f2f7;
+	font-family: 'Segoe UI';
+    color: #1f3c44;
+    margin-left: 20px;
+}
+
+#upload-container img {
+	width: 40%;
+	margin-bottom: 20px;
+	user-select: none;
+}
+
+#upload-container label {
+	font-weight: bold;
+}
+
+#upload-container label:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#upload-container div {
+	position: relative;
+	z-index: 10;
+}
+
+#upload-container input[type=file] {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	position: absolute;
+	z-index: -10;
+}
+
+#upload-container label.focus {
+	outline: 1px solid #0078d7;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+#upload-container.dragover {
+	background-color: #fafafa;
+	outline-offset: -17px;
+}
+#submit-send-input
+{
+    margin-left: 30px;
+    margin-top: 20px;
+}

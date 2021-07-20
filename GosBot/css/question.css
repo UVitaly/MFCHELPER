@@ -1,0 +1,57 @@
+.inline{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.answer, .question{
+    align-items: center;
+}
+
+.answers{
+
+padding: 10px;
+
+}
+
+.answer,.answer_parameters__parameters{
+
+    padding: 10px;
+
+}
+
+.answer>input{
+    margin-right: 10px;
+    margin: 0 10px;
+}
+
+.question>input
+{
+    padding: 5;
+    height: 20px;
+    margin: 10px;
+}
+.answer_parameters
+{
+    margin-right: 10px;
+}
+
+.other_forms h2
+{
+
+    text-align: center;
+    display: block;
+
+}
+
+main{
+
+    padding-left: 20px;
+
+}
+
+p{
+    
+    white-space: nowrap;
+    margin:0 !important;
+    padding: 1px;
+}
